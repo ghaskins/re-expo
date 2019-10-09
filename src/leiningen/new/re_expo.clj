@@ -11,4 +11,11 @@
               :sanitized (name-to-path name)}]
     (main/info "Generating fresh 'lein new' re-expo project.")
     (->files data
-             ["src/{{sanitized}}/foo.clj" (render "foo.clj" data)])))
+             ["project.clj" (render "project.clj" data)]
+             ["app.json" (render "app.json" data)]
+             ["README.md" (render "README.md" data)]
+             ["src/{{sanitized}}/app.cljs" (render "app.cljs" data)]
+             ["src/{{sanitized}}/db.cljs" (render "db.cljs" data)]
+             ["src/{{sanitized}}/events.cljs" (render "events.cljs" data)]
+             ["src/{{sanitized}}/subs.cljs" (render "subs.cljs" data)]
+             ["src/reagent/dom.cljs" (render "dom.cljs" data)])))
