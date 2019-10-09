@@ -1,4 +1,4 @@
-(defproject re-expo/lein-template "1.0.2"
+(defproject re-expo/lein-template "1.0.3-SNAPSHOT"
   :description "A Leiningen template to create re-frame applications on react-native/expo"
   :url "https://github.com/ghaskins/re-expo"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
