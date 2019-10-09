@@ -11,7 +11,7 @@ target/
 pom.xml
 .idea/
 *.iml
-app/
+App/
 .cpcache
 /web-build
 shadow-cljs.edn
