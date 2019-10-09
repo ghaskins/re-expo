@@ -15,7 +15,7 @@
              ["project.clj" (render "project.clj" data)]
              ["app.json" (render "app.json" data)]
              ["README.md" (render "README.md" data)]
-             [".gitignore" (cp ".gitignore")]
+             [".gitignore" (cp "gitignore")]
              ["assets/icon.png" (cp "assets/icon.png")]
              ["assets/shadow-cljs.png" (cp "assets/shadow-cljs.png")]
              ["assets/splash.png" (cp "assets/splash.png")]
