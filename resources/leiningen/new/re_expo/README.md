@@ -1,6 +1,6 @@
-# Re-Frame on React Native
+# {{name}}
 
-This is an example project using: [shadow-cljs](https://github.com/thheller/shadow-cljs), [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/), [Reagent](https://reagent-project.github.io/), and [re-frame](https://github.com/Day8/re-frame).
+This is a project using: [shadow-cljs](https://github.com/thheller/shadow-cljs), [React Native](https://facebook.github.io/react-native/), [Expo](https://expo.io/), [Reagent](https://reagent-project.github.io/), and [re-frame](https://github.com/Day8/re-frame).
 
 Here follows instructions for getting started:
 
@@ -54,3 +54,7 @@ Source maps don't seem to work properly. `metro` propably doesn't read input sou
 Initial load in dev is quite slow since `metro` processes the generated `.js` files.
 
 `reagent.core` loads `reagent.dom` which will load `react-dom` which we don't have or need. Including the `src/main/reagent/dom.cljs` to create an empty shell. Copied from [re-natal](https://github.com/drapanjanas/re-natal/blob/master/resources/cljs-reagent6/reagent_dom.cljs).
+
+## Credits
+
+This program was created initially with [re-expo](https://github.com/ghaskins/re-expo) which is based off of [PEZ/rn-rf-shadow](https://github.com/PEZ/rn-rf-shadow)
